@@ -1,0 +1,330 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  direction: rtl;
+  perspective: 10000px;
+  background-color: #f0eded;
+}
+.cont{
+	width:1160px;
+	margin:auto;
+	overflow:hidden;
+}
+.navy{
+  background-color: #282828;
+  color:#FFF;
+  width: 100%;
+  height: 55px;
+  overflow: hidden;
+}
+.navy .cont .nav-img i{
+    width: 100px;
+    float: left;
+    margin-top: 15px;
+	cursor: pointer;
+}
+.navy .cont .nav-img img{
+	height: 50px;
+    float: left;
+    margin: 5px 15px;
+}
+.navy ul{
+  list-style: none;
+  float: right;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.navy li{
+  float: right;
+  padding: 10px;
+  padding-right: 15px;
+  font-size: 25px;
+  font-family: Lalezar, Arial;
+  cursor: pointer;
+  height: 55px;
+  transition: all .5s ease;
+}
+.navy li:hover{
+  background-color: #f39c12;
+  transform: translateY(-5px);
+}
+.navy h2{
+  padding: 15px;
+  margin: 10px;
+  font-family: "Droid Sans",Arial;
+  cursor: pointer;
+}
+.cont .content h2{
+	margin-top: 30px;
+  text-align: center;
+  font-size: 38px;
+  font-family: Lemonada, Arial;
+}
+.cards{
+	height: 620px;
+}
+.cont .content .cards .carda ,.cardb ,.cardc{
+  width: 355px;
+  height: 574px;
+  float: right;
+	position: relative;
+  background-color: #FFF;
+  margin: 15px;
+	overflow: hidden;
+  border-radius: 5%;
+  box-shadow: 8px 18px 30px -12px #000;
+	z-index: 1;
+}
+.cont .content .cards .carda ,.cardc{
+	height: 530px;
+  margin-top: 40px;
+}
+.cont .content .cards .rec{
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-family: lemonada;
+  background-color: #f8931e;
+  color: #FFF;
+}
+.carda h3 ,.cardb h3 ,.cardc h3{
+  margin: -1px auto;
+  padding: 40px;
+  width: 100%;
+  height: 135px;
+  text-align: center;
+  font-family: Lalezar, Arial;
+  font-size: 30px;
+  transition: all .5s ease-in-out;
+}
+.carda p ,.cardb p ,.cardc p{
+  margin: 0px auto;
+  font-family: Mada, Arial;
+  font-size: 30px;
+  text-align: center;
+}
+p > span{
+  font-size: 150%;
+}
+.icons{
+  width: 100%;
+  height: 166px;
+  margin-top: 40px;
+  display: block;
+  position: relative;
+}
+.icons > div{
+  width: 225px;
+  height: 185px;
+  position: absolute;
+  top: 0;
+  right: 25%;
+  margin: auto -30px;
+  overflow: hidden;
+}
+.icons > div i{
+  font-size: 95px;
+  margin: 0 auto 35px;
+  display: inline-block;
+  text-align: center;
+  height: 155px;
+  width: 100%;
+  position: relative;
+}
+.icons > div i P{
+  font-size: 25px;
+  margin-top: 35px;
+}
+.cont .content .cards .carda button ,.cardb button ,.cardc button{
+	border:1px solid #f8931e;
+	border-radius: 20px 20px 20px 20px;
+	margin: 50px 115px 0 0;
+  display: block;
+	width:120px;
+  font-weight: bold;
+  font-family: cairo;
+  background-color: #FFF;
+	height: 50px;
+	cursor: pointer;
+}
+.cont .content .cards .cardb button{
+  background-color: #f8931e;
+  margin-top: 30px;
+}
+.face > a{
+  margin: 0 150px 0 0;
+  border-bottom: 1px solid  #f8931e;
+  text-transform: capitalize;
+  font-family: Cairo, Lemonada, Arial;
+  cursor: pointer;
+}
+.cont .content .cards .cardb{
+  border: 3px solid #f8931e;
+}
+.cont .content .cards .back{
+  display: none;
+}
+.cont .content .cards .back i{
+  display: block;
+  padding: 15px;
+  font-size: 2.5em;
+  cursor: pointer;
+  transition: all .25s ease;
+}
+.cont .content .cards .back i p{
+  margin-right: 25px;
+  display: inline;
+  font-size: 20px;
+}
+#fith , #sth{
+  margin-left: 55px;
+  margin-bottom: 10px;
+}
+.cont .content .cards .back button{
+  border:1px solid #f8931e;
+  border-radius: 20px 20px 20px 20px;
+  margin: 25px 115px 0 0;
+  display: block;
+  width:120px;
+  height: 50px;
+  cursor: pointer;
+}
+#back-bu , #back_buB , #back-buD{
+  padding: 0;
+  margin: -6px 5px 0 0;
+  width: 50px;
+  cursor: pointer;
+  color: #f8931e;
+  border: none;
+}
+#back-bu{    
+	margin: -23px 5px 0 0;
+}
+.cont .content .cards .back i:hover{
+  border-left: 5px solid #f8931e;
+}
+.carda:hover h3 ,.cardb:hover h3 ,.cardc:hover h3{
+  background-color: #f8931e;
+  color: #FFF;
+  border-bottom-right-radius: 135px;
+}
+.cont .content .cards .carda:hover button ,.cardb:hover button ,.cardc:hover button{
+  background-color: #f8931e;
+}
+footer{
+  height: 100%;
+  background-color: #333;
+  color:#FFF;
+}
+footer .contactus{
+  float: right;
+  font-family: cairo, Arial;
+}
+footer .contactus h2{
+  text-align: center;
+}
+footer .contactus textarea{
+  resize: none;
+  height: 160px;
+  width: 509px;
+  margin: 10px;
+  display: block;
+  border: 3px solid #f8931e;
+  direction: ltr;
+}
+footer input[type="email"] , input[type="text"]{
+  width: 250px;
+  height: 50px;
+  margin: 5px;
+  border: 3px solid #f8931e;
+  direction: ltr;
+}
+.buttons{
+  margin: 10px 10px 0 0;
+  text-align: center;
+}
+footer input[type="submit"]{
+  width: 200px;
+  height: 50px;
+  background-color: #7f8c8d;
+  color:#fff;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+  font-family: Mada, Arial;
+  font-size: 20px;
+  transition: all 1s ease;
+}
+footer input[type="submit"]:hover{
+  background-color: #f8931e;
+}
+footer input[type="email"] , input[type="text"]{
+  padding: 10px;
+}
+#abber{
+  text-align: center;
+  display: none;
+}
+.aboutus{
+  float: left;
+  font-family: cairo, Arial;
+  margin-left: 50px;
+}
+.aboutus h2:first-child{
+  text-align: center;
+}
+.aboutus p{
+	line-height:2;
+}
+.aboutus p.email{
+  font-family: "Droid Sans",Arial;
+}
+p[dir="ltr"]{
+  margin-left:270px;
+}
+.aboutus a i{
+  float: left;
+  width: 98px;
+  height: 80px;
+  direction: ltr;
+  color: #FFF;
+  margin: -10px 0px 10px 0px;
+  padding-left: 35px;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 55px;
+  border-radius: 5%;
+  transition: all 1s ease;
+}
+.aboutus a{
+  color: #000;
+}
+#facebook:hover{
+  color: #fff;
+  background-color: #3b5998;
+}
+#twitter:hover{
+  color: #fff;
+  background-color: #1da1f2;
+}
+.copyr{
+  text-align: center;
+  height: 85px;
+  width: 100%;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: Cairo, Lemonada, Arial;
+  background-color: #1a1a1a;
+  transition: all .5s ease;
+}
+.copyr h2{
+  padding-top: 10px;
+}
+.copyr h3{
+  margin-bottom: 0;
+}
